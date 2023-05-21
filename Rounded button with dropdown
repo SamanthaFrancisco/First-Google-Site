@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh; /* Adjust the height of the container as needed */
+    }
+
+    .dropdown-toggle {
+      width: 150px;
+      height: 48px;
+      font-size: 18px; /* Adjust font size as needed */
+      padding: 10px; /* Adjust padding as needed */
+      border-radius: 18px; /* Make the button more rounded */
+      background-color: #1f4e79; /* Change the background color */
+      color: #ffffff; /* Change the text color */
+      font-family: Arial, sans-serif; /* Adjust font face as needed */
+      font-weight: bold; /* Make the letters bold */
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="center-container">
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" onclick="redirectToLink('https://www.youtube.com/watch?v=zTb4r4iF1P0')">Click to UwU
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+       <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Option 1</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Option 2</a></li>
+        <li><a href="https://crouton.net/">Crouton</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
